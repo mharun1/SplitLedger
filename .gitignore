@@ -1,0 +1,55 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Kotlin compiler / Gradle plugin cache
+.kotlin/
+
+# Build & debug artifacts
+*.apk
+*.aab
+*.hprof
+*.log
+hs_err_pid*
+
+# Signing & local secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+
+# Local IDE state
+.idea/deploymentTargetSelector.xml
+.idea/material_theme_project_new.xml
+
+# Local tool config
+.impeccable/config.local.json
+
+# Windows OS files
+Thumbs.db
+Desktop.ini
+
+# AI tooling
+.agent/
+.agents/
+.codex/
+.cursor/
+.gemini/
+
+# Project planning & spec docs
+/docs/
+/DESIGN.md
+/PRODUCT.md
