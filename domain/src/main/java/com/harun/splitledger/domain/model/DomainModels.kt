@@ -35,7 +35,7 @@ data class Expense (
     val payerId: String,
     val splitMode: SplitMode,
     val createdAtEpochMs: Long,
-    val split: List<ExpenseSplit>
+    val splits: List<ExpenseSplit>
 )
 data class Settlement (
     val id: String,
